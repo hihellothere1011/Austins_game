@@ -74,3 +74,17 @@ body {
     justify-content: center;
     text-align: center;   
 }
+
+a .main{
+    border: 6px solid #9412BC;
+    background-color: #52EFBA;
+    border-radius: 3px;
+    font-size: 50px;
+    color: #3E74AE;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+}
