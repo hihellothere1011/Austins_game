@@ -1,0 +1,76 @@
+body {
+    background-color: #1f0737;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 5%;
+    box-sizing: border-box;
+    transition: background-color 0.5s ease;
+    color: #52EFBA;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#PLAYbutton {
+    border: 3px solid #9412BC;
+    background-color: #52EFBA;
+    border-radius: 24px;
+    font-size: 50px;
+    color: #3E74AE;
+    margin-bottom: 20px;
+}
+
+#secret {
+    border: 3px solid #9412BC;
+    background-color: #52EFBA;
+    border-radius: 24px;
+    font-size: 50px;
+    color: #3E74AE;
+    margin-bottom: 20px;
+}
+
+
+.gamebuttons {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.large-text {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.game-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+
+#rick-roll {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    width: 60%
+}
+
+
+.docs {
+    border: 12px solid #9412BC;
+    background-color: #52EFBA;
+    color: #3E74AE;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+}
