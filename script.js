@@ -8,7 +8,10 @@ const color = [
 ];
 
 function changeColor() {
-    const random = color[Math.floor(Math.random()*5)];
+    let random = color[Math.floor(Math.random()*5)];
+    if (random.value === document.body.style.backgroundColor) {
+        random = color[Math.floor(Math.random()*5)]
+    }
     document.body.style.backgroundColor = random.value;
 };
 
