@@ -7,22 +7,28 @@ body {
     box-sizing: border-box;
     transition: background-color 0.5s ease;
     color: #52EFBA;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 #PLAYbutton {
-    border: 3px solid #9412BC;
+    border: 6px solid #9412BC;
     background-color: #52EFBA;
     border-radius: 24px;
     font-size: 50px;
     color: #3E74AE;
+    margin-bottom: 20px;
+}
+
+#PLAYbutton:hover {
+    border: 6px solid #9412BC;
+    background-color: #3E74AE;
+    border-radius: 24px;
+    font-size: 50px;
+    color: #52EFBA;
     margin-bottom: 20px;
 }
 
 #secret {
-    border: 3px solid #9412BC;
+    border: 6px solid #9412BC;
     background-color: #52EFBA;
     border-radius: 24px;
     font-size: 50px;
@@ -30,8 +36,17 @@ body {
     margin-bottom: 20px;
 }
 
+#secret:hover {
+    border: 6px solid #9412BC;
+    background-color: #3E74AE;
+    border-radius: 24px;
+    font-size: 50px;
+    color: #52EFBA;
+    margin-bottom: 20px;
+}
 
 .gamebuttons {
+    display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
